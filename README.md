@@ -37,7 +37,7 @@ Echoes of Art is a creative project for IAT460 that transforms sound into visual
     ``` bash
     pip install -r requirements.txt
     ```
-Alternatively, if you're installing manually, run:
+    Alternatively, if you're installing manually, run:
     ``` bash
     pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipython
     ```
