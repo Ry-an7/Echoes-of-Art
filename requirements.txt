@@ -1,0 +1,10 @@
+matplotlib
+pandas
+numpy
+librosa
+pillow
+soundfile
+tensorflow
+tensorflow_hub
+requests
+ipython
