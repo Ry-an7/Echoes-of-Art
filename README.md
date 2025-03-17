@@ -25,18 +25,24 @@ Echoes of Art is a creative project for IAT460 that transforms sound into visual
 - Ipython
 
 ## Setup
-1. Clone the Repository: To view or modify this project, clone the repository using Git:
-` git clone [https://github.com/Ry-an7/Ry-an7.github.io]'
-
-
-2. Install the required dependencies: You can install all the necessary libraries by running:
-
+1. **Clone the Repository**: To view or modify this project, clone the repository using Git:
+   ```bash
+   git clone https://github.com/Ry-an7/Echoes-of-Art
+   ```
+2. **Navigate to the Folder**: Once cloned, navigate to the project directory:
+    ``` bash
+    cd Ry-an7.github.io
+    ```
+3. **Install the required dependencies**: You can install all the necessary libraries by running:
+    ``` bash
+    pip install -r requirements.txt
+    ```
 Alternatively, if you're installing manually, run:
-
-
-
+    ``` bash
+    pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipython
+    ```
 
 ## Acknowledgments
-- TensorFlow and PyTorch for their powerful machine learning frameworks.
-- librosa for audio processing and spectrogram generation.
+- **TensorFlow** and **PyTorch** for their powerful machine learning frameworks.
+- **librosa** for audio processing and spectrogram generation.
 - Pre-trained models for Neural Style Transfer.
