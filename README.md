@@ -6,7 +6,7 @@ Echoes of Art is a creative project for IAT460 that transforms sound into visual
 
 ## Features
 - **Audio-to-Spectrogram Conversion**: The input audio is converted into a spectrogram, a visual representation of the sound frequencies.
-- **Neural Style Transfer (NST)**: Using a selection of pre-trained NST models, the project merges the spectrogram with famous artistic styles, such as Impressionism, Cubism, and Abstract Expressionism.
+- **Neural Style Transfer (NST)**: Using a selection of pre-trained NST models, the project merges the spectrogram with famous paintings, such as Vincent van Gogh's *The Starry Night* or Hokusai *The Great Wave off Kanagawa*.
 - **Multiple Style Options**: Users can choose from several classical painting styles to apply to their spectrograms.
 
 ## Installation
