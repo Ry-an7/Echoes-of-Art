@@ -48,6 +48,6 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 2. **Place Your Audio File in the Provided Folder**<br>
      Upload your audio file to the Audio/ directory (or any directory where you'd like to store it). If you're running the code in Colab, make sure to adjust the path to where the file is located.
 3. **Update the File Path in the Code**<br>
-      To match the file you uploaded, update the following line in the code: `audio_files = glob('Desktop/Audio/Street-Sounds.mp3')`. Replace `'Street-Sounds.mp3'` with the name of the file you uploaded.
+      To match the file you uploaded, update the following line in the code: `audio_files = glob('Desktop/Audio/Street-Sounds.mp3')`.<br> Replace `'Street-Sounds.mp3'` with the name of the file you uploaded.
 4. **Run the Code**<br>
      Now, you can run the rest of the code to process the audio and generate the corresponding spectrogram and art using Neural Style Transfer.
