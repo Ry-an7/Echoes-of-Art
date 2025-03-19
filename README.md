@@ -43,11 +43,11 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipywidgets ipython
     ```
 ## Usage
-1. **Record Audio Input**<br>
-     You can record your own audio using any audio recording tool (e.g., voice recorder on your phone, or software like Audacity). Save your recording as an audio file (e.g., .mp3, .wav).
-2. **Place Your Audio File in the Provided Folder**<br>
-     Upload your audio file to the Audio/ directory (or any directory where you'd like to store it). If you're running the code in Colab, make sure to adjust the path to where the file is located.
-3. **Update the File Path in the Code**<br>
+2. **Record Audio Input**<br>
+     Record your own audio using any audio recording tool (e.g., voice recorder on your phone, or software like Audacity). Save your recording as an audio file (e.g., .mp3, .wav).
+3. **Place Your Audio File in the Provided Folder**<br>
+     Upload your audio file to the Audio/ directory, if you're running the code in Colab, make sure to adjust the path to where the file is located.
+4. **Update the File Path in the Code**<br>
       To match the file you uploaded, update the following line in the code:
       ``` bash
           audio_files = glob('Desktop/Audio/Street-Sounds.mp3')
