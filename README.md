@@ -17,8 +17,8 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 - TensorFlow
 - TensorFlow_hub
 - PyTorch
-- librosa (for audio processing)
-- matplotlib (for visualization)
+- Librosa (for audio processing)
+- Matplotlib (for visualization)
 - Pillow
 - Soundfile
 - Requests
