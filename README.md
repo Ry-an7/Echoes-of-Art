@@ -22,6 +22,7 @@ Echoes of Art is a creative project for IAT460 that transforms sound into visual
 - Pillow
 - Soundfile
 - Requests
+- Ipywidgets
 - Ipython
 
 ## Setup
