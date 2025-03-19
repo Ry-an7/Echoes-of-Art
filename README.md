@@ -39,7 +39,7 @@ Echoes of Art is a creative project for IAT460 that transforms sound into visual
     ```
     Alternatively, if you're installing manually, run:
     ``` bash
-    pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipython
+    pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipywidgets ipython
     ```
 
 ## Acknowledgments
