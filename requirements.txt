@@ -7,4 +7,5 @@ soundfile
 tensorflow
 tensorflow_hub
 requests
+ipywidgets
 ipython
