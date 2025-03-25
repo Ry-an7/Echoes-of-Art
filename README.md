@@ -52,7 +52,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 3. ### Access the Interface
    Once the notebook is running, you will see an output in the cell with a link like:
    ``` bash
-    * Running on local URL:  http://127.0.0.1:7944
+   Running on local URL:  http://127.0.0.1:7944
    ```
    Click on the local URL link to open the Gradio interface and start interacting with the application.
 4. ### Record or Upload Your Audio <br>
