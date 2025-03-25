@@ -36,8 +36,13 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 ## Usage
 1. **Record or Upload Your Audio**<br>
      You can either upload an audio file or record directly using your microphone in the provided Gradio interface.
-   - **To upload an audio file:**
+   - **To upload an audio file:**<br>
      Click on the "Upload Audio" tab and select the file you want to use. The supported file types are audio files (e.g., .mp3, .wav).
+   - **To record audio using the microphone:**<br>
+     Click on the "Record Audio" tab, and press the "Record" button to record your audio.<br>
+     **Note:**Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
+2. **Generate the Spectrogram**<br>    
+    
 3. **Place Your Audio File in the Provided Folder**<br>
      Upload your audio file to the `Audio/` directory, if you're running the code in Colab, make sure to adjust the path to where the file is located.
 4. **Update the File Path in the Code**<br>
