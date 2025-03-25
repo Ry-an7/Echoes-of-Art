@@ -72,7 +72,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
    - **Impression, Sunrise by Claude Monet**
    - **Persistence of Memory by Salvador Dalí**
 
-Click on the button for your preferred style to apply Neural Style Transfer (NST).
+   Click on the button for your preferred style to apply Neural Style Transfer (NST).
 7. ### View the Stylized Result <br>
    After processing, the resulting image will appear as a stylized version of your spectrogram, transformed in the style of the painting you selected.
 
