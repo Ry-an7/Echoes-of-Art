@@ -34,16 +34,28 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipywidgets ipython
     ```
 ## Usage
-1. **Record or Upload Your Audio**<br>
+1. **Open the Project in Google Colab**<br>
+   First, open the project in Google Colab. Once the notebook is open:
+   - **Adjust the painting paths** to match the correct directory where your painting images are stored. Look for the section in the code where the painting paths are defined:
+   ``` bash
+   style_images = {
+    "Starry Night": "Desktop/Echoes_of_Art/Paintings/StarryNight.jpg",
+    "The Scream": "Desktop/Echoes_of_Art/Paintings/Scream.jpg",
+    "The Great Wave": "Desktop/Echoes_of_Art/Paintings/Wave.jpg",
+    "Impression, Sunrise": "Desktop/Echoes_of_Art/Paintings/Sunrise.jpg",
+    "Persistence of Memory": "Desktop/Echoes_of_Art/Paintings/PersistenceofMemory.jpg",
+   }
+   ```
+3. **Record or Upload Your Audio**<br>
      You can either upload an audio file or record directly using your microphone in the provided Gradio interface.
    - **To upload an audio file:**<br>
      Click on the "Upload Audio" tab and select the file you want to use. The supported file types are audio files (e.g., .mp3, .wav).
    - **To record audio using the microphone:**<br>
      Click on the "Record Audio" tab, and press the "Record" button to record your audio.<br>
      **Note:** Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
-2. **Generate the Spectrogram**<br>    
+4. **Generate the Spectrogram**<br>    
     - After uploading or recording your audio, click the "Generate from Upload/Recording" button and view the spectrogram on the right.
-3. **Select a Painting Style**<br>
+5. **Select a Painting Style**<br>
      After the spectrogram is generated, **choose a painting style** using the corresponding painting buttons to apply to the generated spectrogram. Available styles include:
    - **The Starry Night by Vincent van Gogh**
    - **The Scream by Edvard Munch**
@@ -51,7 +63,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
    - **Impression, Sunrise by Claude Monet**
    - **Persistence of Memory by Salvador Dalí** <br>
    Click on the button for your preferred style to apply Neural Style Transfer (NST).
-5. **View the Stylized Result**<br>
+6. **View the Stylized Result**<br>
    After processing, the resulting image will appear as a stylized version of your spectrogram, transformed in the style of the painting you selected.
 
 
