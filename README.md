@@ -34,7 +34,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipywidgets ipython
     ```
 ## Usage
-1. **Open the Project in Google Colab**<br>
+1. ### Open the Project in Google Colab<br>
    First, open the project in Google Colab. Once the notebook is open:
    - **Adjust the painting paths** to match the correct directory where your painting images are stored. Look for the section in the code where the painting paths are defined:
    ``` bash
