@@ -6,35 +6,26 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 
 ## Features
 - **Audio-to-Spectrogram Conversion**: The input audio is converted into a spectrogram, a visual representation of the sound frequencies.
-- **Neural Style Transfer (NST)**: Using a pre-trained NST model, the project merges the spectrogram with a famous painting, such as Vincent van Gogh's *The Starry Night* or Hokusai *The Great Wave off Kanagawa*.
-- **Multiple Style Options**: Users can choose from five classical painting styles to apply to their spectrograms.
+- **Neural Style Transfer (NST)**: Using a pre-trained NST model, the project transforms audio spectrogram into artworks styled after famous paintings, such as Vincent van Gogh's *The Starry Night* or Hokusai *The Great Wave off Kanagawa*.
+- **Multiple Style Options**: Users can choose from five classical painting to style their spectrogram after.
 
 ## Installation
 ## Requirements
 - Python 3.x
-- Pandas
-- Numpy
-- TensorFlow
-- TensorFlow_hub
-- PyTorch
-- Librosa (for audio processing)
-- Matplotlib (for visualization)
-- Pillow
-- Soundfile
-- Requests
-- Ipywidgets
-- Ipython
+- gradio (for the web interface)
+- librosa + soundfile (for audio processing)
+- matplotlib (for spectrogram visualization)
+- numpy (numerical operations)
+- Pillow (image handling)
+- tensorflow + tensorflow-hub (style transfer model)
 
 ## Setup
 1. **Clone the Repository**: To view or modify this project, clone the repository using Git:
    ```bash
    git clone https://github.com/Ry-an7/Echoes-of-Art
+   cd Echoes-of-Art
    ```
-2. **Navigate to the Folder**: Once cloned, navigate to the project directory:
-    ``` bash
-    cd Ry-an7.github.io
-    ```
-3. **Install the required dependencies**: You can install all the necessary libraries by running:
+2. **Install the required dependencies**: You can install all the necessary libraries by running:
     ``` bash
     pip install -r requirements.txt
     ```
@@ -43,8 +34,10 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     pip install matplotlib pandas numpy librosa pillow soundfile tensorflow tensorflow_hub requests ipywidgets ipython
     ```
 ## Usage
-2. **Record Audio Input**<br>
-     Record your own audio using any audio recording tool (e.g., voice recorder on your phone, or software like Audacity). Save your recording as an audio file (e.g., .mp3, .wav).
+1. **Record or Upload Your Audio**<br>
+     You can either upload an audio file or record directly using your microphone in the provided Gradio interface.
+   - *To upload an audio file:*
+     Click on the "Upload Audio" tab and select the file you want to use. The supported file types are audio files (e.g., .mp3, .wav).
 3. **Place Your Audio File in the Provided Folder**<br>
      Upload your audio file to the `Audio/` directory, if you're running the code in Colab, make sure to adjust the path to where the file is located.
 4. **Update the File Path in the Code**<br>
