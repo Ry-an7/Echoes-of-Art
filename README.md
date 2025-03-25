@@ -46,7 +46,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     "Persistence of Memory": "Desktop/Echoes_of_Art/Paintings/PersistenceofMemory.jpg",
    }
    ```
-**Update the paths** to match the location of the painting images on your system. The folder containing the paintings, named `Paintings`, is included in the zip folder. Make sure the paths point to the correct directory where the paintings are stored.
+   **Update the paths** to match the location of the painting images on your system. The folder containing the paintings, named `Paintings`, is included in the zip folder. Make sure the paths point to the correct directory where the paintings are stored.
 2. **Run the Notebook**<br>
    After making necessary adjustments, run the notebook by clicking the Run button at the top of the Colab interface to execute the code.
 3. **Access the Interface**
