@@ -40,9 +40,9 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
      Click on the "Upload Audio" tab and select the file you want to use. The supported file types are audio files (e.g., .mp3, .wav).
    - **To record audio using the microphone:**<br>
      Click on the "Record Audio" tab, and press the "Record" button to record your audio.<br>
-     **Note:**Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
+     **Note:** Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
 2. **Generate the Spectrogram**<br>    
-    
+    - After uploading or recording your audio, click the "Generate from Upload/Recording" button and view the spectrogram on the right.
 3. **Place Your Audio File in the Provided Folder**<br>
      Upload your audio file to the `Audio/` directory, if you're running the code in Colab, make sure to adjust the path to where the file is located.
 4. **Update the File Path in the Code**<br>
