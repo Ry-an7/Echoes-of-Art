@@ -43,13 +43,15 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
      **Note:** Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
 2. **Generate the Spectrogram**<br>    
     - After uploading or recording your audio, click the "Generate from Upload/Recording" button and view the spectrogram on the right.
-3. **Place Your Audio File in the Provided Folder**<br>
-     Upload your audio file to the `Audio/` directory, if you're running the code in Colab, make sure to adjust the path to where the file is located.
-4. **Update the File Path in the Code**<br>
-      To match the file you uploaded, update the following line in the code:
-      ``` bash
-          audio_files = glob('Desktop/Audio/Street-Sounds.mp3')
-      ```
-      Replace `'Street-Sounds.mp3'` with the name of the file you uploaded.
-5. **Run the Code**<br>
-     Now, you can run the rest of the code to process the audio and generate the corresponding spectrogram and art using Neural Style Transfer.
+3. **Select a Painting Style**<br>
+     After the spectrogram is generated, **choose a painting style** using the corresponding painting buttons to apply to the generated spectrogram. Available styles include:
+   - **The Starry Night by Vincent van Gogh**
+   - **The Scream by Edvard Munch**
+   - **The Great Wave off Kanagawa by Hokusai**
+   - **Impression, Sunrise by Claude Monet**
+   - **Persistence of Memory by Salvador Dalí** <br>
+   Click on the button for your preferred style to apply Neural Style Transfer (NST).
+5. **View the Stylized Result**<br>
+   After processing, the resulting image will appear as a stylized version of your spectrogram, transformed in the style of the painting you selected.
+
+
