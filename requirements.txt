@@ -1,11 +1,8 @@
-matplotlib
-pandas
-numpy
+gradio
 librosa
-pillow
-soundfile
+matplotlib
+numpy
+Pillow
 tensorflow
-tensorflow_hub
-requests
-ipywidgets
-ipython
+tensorflow-hub
+soundfile
