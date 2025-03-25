@@ -74,6 +74,6 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 
    Click on the button for your preferred style to apply Neural Style Transfer (NST).
 7. ### View the Stylized Result <br>
-   After processing, the resulting image will appear as a stylized version of your spectrogram, transformed in the style of the painting you selected.
+  Once the transformation is complete, the resulting image will appear at the bottom as a unique, stylized version of your spectrogram, enhanced by creative noise, a chance for random pixel movement, and the selected painting style.
 
 
