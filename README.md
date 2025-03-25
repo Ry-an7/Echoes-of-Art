@@ -77,5 +77,5 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
    Once the transformation is complete, the resulting image will appear at the bottom as a unique, stylized version of your spectrogram, enhanced by creative noise, a chance for random pixel movement, and the selected painting style.
 
 ## Acknowledgements
-- This project uses a pretrained model from **[TensorFlow Hub](https://www.tensorflow.org/tutorials/generative/style_transfer)** for neural style transfer, based on the tutorial provided.
+- This project uses a pretrained model from [TensorFlow Hub](https://www.tensorflow.org/tutorials/generative/style_transfer) for neural style transfer, based on the tutorial provided.
 - This project utilizes [Gradio](https://www.gradio.app/) for creating the user interface.
