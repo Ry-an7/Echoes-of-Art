@@ -9,7 +9,6 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 - **Neural Style Transfer (NST)**: Using a pre-trained NST model, the project transforms audio spectrogram into artworks styled after famous paintings, such as Vincent van Gogh's *The Starry Night* or Hokusai *The Great Wave off Kanagawa*.
 - **Multiple Style Options**: Users can choose from five classical painting to style their spectrogram after.
 
-## Installation
 ## Requirements
 - Python 3.x
 - gradio (for the web interface)
