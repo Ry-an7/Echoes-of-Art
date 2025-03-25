@@ -46,6 +46,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
     "Persistence of Memory": "Desktop/Echoes_of_Art/Paintings/PersistenceofMemory.jpg",
    }
    ```
+   **Update the paths** to match the location of the painting images on your system. The folder containing the paintings, named `Paintings`, is included in the zip folder. Make sure the paths point to the correct directory where the paintings are stored.
 3. **Record or Upload Your Audio**<br>
      You can either upload an audio file or record directly using your microphone in the provided Gradio interface.
    - **To upload an audio file:**<br>
