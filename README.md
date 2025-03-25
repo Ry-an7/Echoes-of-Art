@@ -63,7 +63,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
      Click on the "Record Audio" tab, and press the "Record" button to record your audio.<br>
      **Note:** Make sure to **allow the browser** to access your microphone when prompted in order to record audio.
 5. ### Generate the Spectrogram <br>    
-    - After uploading or recording your audio, click the "Generate from Upload/Recording" button and view the spectrogram on the right.
+   After uploading or recording your audio, click the "Generate from Upload/Recording" button and view the spectrogram on the right.
 6. ### Select a Painting Style<br>
      After the spectrogram is generated, **choose a painting style** using the corresponding painting buttons to apply to the generated spectrogram. Available styles include:
    - **The Starry Night by Vincent van Gogh**
