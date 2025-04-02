@@ -12,7 +12,7 @@ Echoes of Art is a creative AI project for IAT460 that transforms sound into vis
 ## Requirements
 - Python 3.x
 - gradio (for the web interface)
-- librosa + soundfile (for audio processing)
+- librosa (for audio processing)
 - matplotlib (for spectrogram visualization)
 - numpy (numerical operations)
 - Pillow (image handling)
