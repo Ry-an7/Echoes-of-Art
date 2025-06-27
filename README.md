@@ -7,10 +7,9 @@
 - [Setup](#setup)
 - [Usage](#usage)
 - [Acknowledgements](#acknowledgements)
-- 
-## Project Overview
 
-Echoes of Art is a creative AI project for IAT460 that transforms sound into visual art using Neural Style Transfer (NST). This project takes audio inputs (such as environmental noise, speech, music, etc.), converts them into spectrograms, and applies pre-trained deep learning models to generate unique images inspired by five famous paintings. The result is a visual representation of sound that project challenges how sound, which is traditionally viewed as an auditory sensation, can be reimagined in the visual sense.
+## Project Overview
+Echoes of Art is a creative AI project developed for IAT460: Generative AI and Computational Creativity. It explores how sound can be visually represented by converting audio inputs such as music, speech, or environmental noise into spectrograms and then stylizing them using Neural Style Transfer (NST). The result is a visual representation of sound that challenges the traditional notion of audio as solely an auditory experience, reimagining it through visual interpretation inspired by iconic works of art.
 
 ## Features
 - **Audio-to-Spectrogram Conversion**: The input audio is converted into a spectrogram, a visual representation of the sound frequencies.
