@@ -7,6 +7,7 @@
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Related Paper](#related-paper)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
@@ -90,6 +91,12 @@ Echoes of Art is a creative AI project developed for IAT460: Generative AI and C
    Click on the button for your preferred style to apply Neural Style Transfer (NST).
 7. ### View the Stylized Result <br>
    Once the transformation is complete, the resulting image will appear at the bottom as a unique, stylized version of your spectrogram, enhanced by creative noise, a chance for random pixel movement, and the selected painting style.
+
+## Related Paper
+
+For a detailed explanation of the concepts, methodology, and results behind this project, please see the accompanying paper:
+
+[Echoes of Art - Project Paper (PDF)](Docs/Echoes_of_Art_Paper.pdf)
 
 ## Acknowledgements
 - This project uses a pretrained model from [TensorFlow Hub](https://www.tensorflow.org/tutorials/generative/style_transfer) for neural style transfer, based on the tutorial provided.
