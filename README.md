@@ -23,7 +23,7 @@ Echoes of Art is a creative AI project developed for IAT460: Generative AI and C
 |------------------------------------------|-----------------------------------------|
 | <img src="Examples/spectrogram_street_sounds1.png" width="400"/> | <img src="Examples/stylized_street_sounds_the_scream1.png" width="400"/> |
 
-*The stylized output applies the style of Edvard Munch's “The Scream” (see Available Styles section for all painting styles).*
+*The stylized output applies the style of Edvard Munch's “The Scream”.*
 
 ## Requirements
 - Python 3.x
