@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
+- [Example Output](#example-output)
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
@@ -15,6 +16,14 @@ Echoes of Art is a creative AI project developed for IAT460: Generative AI and C
 - **Audio-to-Spectrogram Conversion**: The input audio is converted into a spectrogram, a visual representation of the sound frequencies.
 - **Neural Style Transfer (NST)**: Using a pre-trained NST model, the project transforms audio spectrogram into artworks styled after famous paintings, such as Vincent van Gogh's *The Starry Night* or Hokusai *The Great Wave off Kanagawa*.
 - **Multiple Style Options**: Users can choose from five classical painting to style their spectrogram after.
+
+## Example Output
+
+| Input Spectrogram                         | Stylized Output (The Scream)          |
+|------------------------------------------|-----------------------------------------|
+| ![Spectrogram](Examples/spectrogram_street_sounds.png) | ![Stylized](Examples/stylized_street_sounds_the _scream.png) |
+
+*The stylized output applies the style of Edvard Munch's “The Scream” (see Available Styles section for all painting styles).*
 
 ## Requirements
 - Python 3.x
